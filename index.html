@@ -400,15 +400,25 @@
     
             </div>
 
-            <form class="form_footer" novalidate>
-                <div class="form-footer-label">
-                    <label >
-                        <p class="form-footer-title">Subscribe</p>
-                        <input type="email" name="footer-email" placeholder="E-mail"/>
+            <form class="form_footer" name="form-footer" novalidate>
+                <div class="form-footer-box">
+                    <label class="footer-modal-label" name="footer-modal-label">
+                        <span class="form-footer-title">Subscribe</span>
+                        <input class="footer-input" type="email" name="footer-email" placeholder="E-mail"/>
                     </label>
                 </div>
 
-                <button class="button-subscr-footer" type="submit">Subscribe</button>
+                <div class="footer-btn-box">
+                    <button class="button-footer" type="submit">
+                        <span class="button-subscr-footer">
+                            Subscribe
+                            <svg class="modal-icon-footer" width="24" height="24">
+                                <use href="./images/icons.svg#icon-icon-btn"></use>
+                            </svg>
+                        </span> 
+                    </button>
+                </div>
+                
 
             </form>
         </div>
