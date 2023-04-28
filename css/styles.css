@@ -789,14 +789,13 @@ color: #FFFFFF;
 
 .modal-window-label {
     display: block;
-    margin-bottom: 8px; 
+    
 
 }
 
 .label-title {
     display: block;
-    margin-bottom: 4px;
-
+    margin-bottom: 4px; 
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -841,6 +840,7 @@ color: #FFFFFF;
 
 .modal-input-box {
     position: relative;
+    margin-bottom: 8px;
 }
 
 .modal-window-icon {
