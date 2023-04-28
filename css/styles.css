@@ -530,11 +530,12 @@ p {
 .footer-body {
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    
 }
 
 .footer-content {
-    
+   
+    margin-right: 120px; 
 
 }
 
